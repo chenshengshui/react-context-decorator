@@ -2,9 +2,11 @@
   "name": "react-context-decorator",
   "version": "1.0.0",
   "description": "a react context decorator, easier for react bind context.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d lib/ src/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/chenshengshui/react-context-decorator/issues"
   },
-  "homepage": "https://github.com/chenshengshui/react-context-decorator#readme"
+  "homepage": "https://github.com/chenshengshui/react-context-decorator#readme",
+  "dependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
 }
