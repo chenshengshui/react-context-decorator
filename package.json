@@ -1,0 +1,24 @@
+{
+  "name": "react-context-decorator",
+  "version": "1.0.0",
+  "description": "a react context decorator, easier for react bind context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chenshengshui/react-context-decorator.git"
+  },
+  "keywords": [
+    "react",
+    "context",
+    "decorator"
+  ],
+  "author": "chenshengshui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenshengshui/react-context-decorator/issues"
+  },
+  "homepage": "https://github.com/chenshengshui/react-context-decorator#readme"
+}
